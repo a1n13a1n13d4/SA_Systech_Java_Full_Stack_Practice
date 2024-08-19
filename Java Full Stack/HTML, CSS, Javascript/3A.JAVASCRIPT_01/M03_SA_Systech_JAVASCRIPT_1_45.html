@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTECH</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        const people = [
+            {
+                Name: "Shyam",
+                Age: 25,
+                Gender: 'Male'
+            },
+            {
+                Name: "Radha",
+                Age: 28,
+                Gender: 'Female'
+            },
+            {
+                Name: "Arun",
+                Age: 30,
+                Gender: 'Male'
+            }
+        ];
+
+        people.forEach(person => {
+            for(let key in person){
+                document.write(key + " : " + person[key] + "<br/>");
+            }
+            document.write("<br/>"); 
+        });
+    </script>
+</body>
+
+</html>

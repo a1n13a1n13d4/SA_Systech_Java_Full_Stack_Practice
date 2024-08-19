@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTECH</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function check(){
+            let marks = prompt('Enter your marks:');
+            if(marks<=100){
+            let result = (marks >= 40) ? 'pass':'fail';
+            alert('You '+result+' the exam.');
+            document.writeln('You '+result+' the exam.');
+            }
+            else{
+                alert('Invalid marks');
+                alert('Enter valid marks');
+            }
+        }
+        check()
+    </script>
+</body>
+</html>
