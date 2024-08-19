@@ -1,0 +1,74 @@
+Basic Java 1:
+       1.Structure of Java
+       2.Basics of Java like variables, data type, input gathering method(Scanner)
+       
+Basic Java 2:
+       1.Tokens(Keywords, Identifiers, Literals, Separators, Comments) -> Identifiers means we name for all like variable, object, package & more. We call that as Identifiers. Literals means we declare the value as constant. To denote that, we called as Literals.
+       2.Add,Sub,Multiplication,Division(Operators)
+       3.Assignment Operators(a+=b, a-=b, a*=b, a/=b, a%=b)
+       4.Logical Operators(&& is union, || is intersection, ! is not)
+       5.Relational or Comparison Operators(==,!=,>,<,>=,<=)
+       6.Ternary Operator((a>b)?a:b;). If a greater than b print first that means a. If false print b.
+       7.Unary Operator +,-,++,--,!(-x,--x, +x,++x).
+       8.Bitwise Operator
+
+Basic Java 3:
+       1.if-else Statement
+       2.else if Statement
+       3.Nested if Statement
+       4.Switch Statement
+
+Basic Java 4:
+       1.For Loop Statement
+
+Basic Java 5:
+       1.While Loop Statement
+       2.Do-While Loop Statement
+
+Basic Java 6:
+       1.Array(One dimensional Array) like Arrays.toString(),Arrays.sort();
+       2.Array(Multi dimensional Array) like Array.deepToString(), System.arraycopy(a,0,b,0,len), Arrays.copyOfRange(a,0,3);
+
+Basic Java 7(Collection):
+    1.Array List:
+       1.Array first we store in normal variable/object then that add in Array List using "add" keyword like a.add(t);
+       2.We used "size" keyword to find length like a.size(); & for String we use a.length();
+       3.We get data using keyword "get" like r.get(a);
+       4.To Change value use "set" like data.set(i,a);
+       5.To remove value in array list use data.remove(a); Note:To remove value, they do not need for loop to use & we remove using there position in array list.
+       6.In the array list we need to used data.sort(Comparator.naturalOrder()); & data.sort(Comparator.reverseOrder()); to ascending & descending the value.
+       7.a.equals(); are used for compare data.    
+
+    2.Hash Map:
+       1.Hash Map is likewise dictionary. It is stored with value or int. Which easily access by the integer. 
+       2.a.put(1," "); to add data.
+       3.for(Integer key1:a.keySet()); is a for each loop used in Hash Map. Keyset is a method or function used to retrive all data in the hash map. 
+       4.To print System.out.println(a.get(key1));
+       5.Replace using a.replace(n,k); keyword.
+       6.Remove using a.remove(n);
+    
+    3.Vector:
+       1.add using "add" keyword & get using "get" keyword.
+       2.size() is used to find the size of the vector.
+       3.Change the value using "set" keyword.
+       4.Remove using "remove" keyword.
+       5.In Vector also we use for each loop. Eg: for(int p:x). But, both have difference.
+
+    4.Collection: 
+       1.ArrayList & Vector used in single program. 
+       2.Vector<String> x=new Vector<String>(); & Collection c=new ArrayList<Integer>();. 
+       3.Then add=>x.addAll(c);
+       4.Here in the single collection we store any two or more data type. 
+
+    5.Iterator:
+       1.Iterator means the data is not changeable. Other all likewise ArrayList & Vector.
+       2.To Change the data from one memory to other. Which is used.
+       
+    6.Enumerator:
+       1.Enumerator means the data is not changeable. Other all likewise ArrayList & Vector.
+       2.To Change the data from one memory to other. Which is used.
+
+
+
+
+

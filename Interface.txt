@@ -1,0 +1,45 @@
+package introduction11Inheritance;
+interface MusicPlay{
+	abstract void play();//Method Declaration
+	void stop();
+	void resume();
+		
+}
+
+
+class Car implements MusicPlay{
+
+	@Override
+	public void play() {
+		System.out.println("Ar Rahman Song playing");
+		
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Song has Stopped");
+		
+	}
+
+	@Override
+	public void resume() {
+		
+		System.out.println("song Reume now playiong sons");
+		
+	}
+	
+}
+public class Inher2{
+	public static void main(String[] args) {
+		 Car c1=new Car();// car is object and it's methods are features
+		 c1.play();
+		 c1.stop();
+		 c1.resume();
+	}
+
+
+
+}
+
+
+Inside of the Interface we only Declare an Method. Otherwise no way possible to declare an variable or create any other features. In main class also we did not create that interface as a object. Which is not possible. To use that interface in child class also we need to declare again. They have only possible way to declare the variable and add features in Child class.

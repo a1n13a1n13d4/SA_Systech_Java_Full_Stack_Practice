@@ -1,0 +1,149 @@
+Notes:
+Logical Operators practice it.
+
+Recap:
+6/1/24:
+       1.Structure of Java
+       2.Basics of Java like variables, data type, input gathering method(Scanner)
+       3.Tokens(Keywords,Identifiers,Literals, Separators, Comments)
+       4.Add,Sub,Multiplication,Division(Operators)
+       5.Assignment Operators(a+=b,a-=b,a*=b,a/=b,a%=b)
+       6.Logical Operators(&& is union, || is intersection, ! is not)
+       7.Relational or Comparison Operators(==,!=,>,<,>=,<=)
+       8.Ternary Operator((a>b)?a:b;). If a greater than b print first that means a. If false print b.
+       9.Unary Operator +,-,++,--,!(-x,--x,+x,++x).
+      10.Bitwise Operator
+
+13/1/24
+       1.if-else Statement
+       2.else if Statement
+       3.Nested if Statement
+       4.Switch Statement
+
+20/1/24
+       1.For Loop Statement
+       2.While Loop Statement
+
+27/1/24
+       1.While Loop Statement
+       2.Do-While Loop Statement
+       3.Array(One dimensional Array) 
+
+03/2/24
+       1.Array(Two dimensional Array)
+       2.Keywords in array like 
+                      Arrays.sort(a),
+                      System.arraycopy(n,position,n,position,n),
+                      Arrays.toString(a),
+                      Arrays.deepToString(a),
+                      Arrays.CopyOfRange(n,start,end),
+                      int objectname[]=new int[];
+       3.Array List
+         used import ArrayList 
+           Note:In the outside to find the length we used length. But,inside array list we only used size keyword. 
+
+17/2/24
+      1.Array List:
+       *To remove the data in array use remove, data.remove(b);
+       *To replace the data in array use set, data.set(a,i);
+          Note: i is not the new value. A is the new value.
+       *Import ArrayList & import Comparator
+          data.sort(Comparator.reverseOrder());
+          data.sort(Comparator.naturalOrder());
+      2.Hash Mapping:
+       *Its like Dictionary in Python. By using the key, we access the value.
+       *Store Hash Mapping value by using ArrayList.
+       *Hash Mapping is inordered. To add value use keyword put and to get value we use get.
+       *Eg:a.put(key,value);
+           for(Integer key1:a.keySet()) {
+			System.out.println(key1);
+			System.out.println(a.get(key1));
+		}
+
+09/03/24
+      1.Vector - It is similar to Array list. Likewise access speed, data collection method only changed here. Another all process are same to array list.
+      2.Collection
+      3.Iteration in arraylist
+      4.Linked Hash Map or Linked List
+
+16/03/24
+      1.Stack
+      2.Queue & Priority Queue
+      3.Set,Iteration in Set or HashSet
+      4.Package
+
+20/04/24
+      1.Package
+      2.SubPackage
+      3.Using that class and method by import
+      4.The Operation or program what to do like add, sub & more. Which is called Method.
+      5.Access the Method class or function by create an object.
+      6.Method is also known as Function.
+
+04/05/24 OOPS:
+      OOPS -> Object,Class,Encapsulation,Polymorphism,Abstraction,Inheritance.
+      1.Encapsulation - Secure data using private, protected & public access specifiers.
+      2.Polymporphism - Same method name with different parameters. Eg.Sum(int a, int b), sum(int a, int b, int c)
+      3.Inheritance - Make relationship between unrelated classes.
+      4.Abstraction - Develop Compiler & Run time polymorphism. 
+        Compile time Polymorphism - A obj=new A();
+        Run time Polymorphism - A obj=new A(); ->Eg. Collection.
+      5.Constructor - Which is used to automate the function. Whenever, in the class name have another function which is called Constructor & Without parameters is called default constructor. 
+      this. keyword is used to -> whenever the both global and local variable is same. We need to say them both are same. For that the keyword this. is used.
+
+      Inheritance -> Types of Inheritance.
+      1.Use the other class inside of same package is called Inheritance. Which did not inherited & used from other package classes. Which is difference between the package and inheritance. In package, we use the same package class & other package class. But, in the Inheritance we use only in the package class.  
+      
+11/05/24:
+      1.Interview Questions 10 AM to 2 PM
+      2.Inheritance 
+      3.class void display(), class int display(), public class test.
+      4.Here, public class test is a class. The class void display() & int display() is method. Whenever we used the void it does not return. Which is print inside of the method.
+      5.Whenever we like to print that. We need to use class int display().
+      6.Inheritance types:
+            1.Single Inheritance - They inherit data and method from one class
+            2.Multilevel Inheritance - They inherit data and method from two more class or file
+            3.Hierarchical Inheritance - The two or more files inherit data from one file.2
+
+25/05/24:
+      1.Interface - Replacement of Multiple Inheritance. To know this concept check Inteface.txt file. In the interface we use implements not extends.
+      2.Encapsulation - To know recall the Visibility control unit 3. Here we called the method as Property, variable called as Instance. They have more name for this.
+      3.Polymorphism - For same method, we override the feature as per need and use it or directly used it called polymorphism. Polymorphism two types. They are Runtime Polymorphism, Compile time polymorphism. Compile time Polymorphism depend on the parameters.
+
+01/06/24:
+    Exception Handling:
+      1.ArithmeticException(e) - Which is used to find the error depend on the arithmetic.
+      2.ArrayIndexOutOfBoundsException(e) - Whenever we used the array which is not available. To show this exception is used. For example, we declare a[5]. But, we access a[6] is not possible right. Here to show error, this exception is used.
+      3.try, catch, finally - first they run try, whenever they have error. In catch by exception we find the error and at last we program finally. They have error or not. Which is not a problem. But, it should run mandatorily.
+      4.throw is used to call the exception.
+
+    Inner Class:
+      1.They have two types of Inner Class. They are Static & Non-Static. For Non-Static they have three types. They are, Member inner class, Anonymous inner class, Local inner class.
+      2.Member inner class - By using the method name we create object and used it. which is called Member inner class.
+      3.Anonymous inner class - Without using the method name we are unable to create object. But, we declare the object there and in the main class we override and used it like interface.
+      4.Local inner class - It's like in the class have a method. Inside of the method have another class & inside of that have another method. Which is Local inner class.
+
+15/06/24:
+    Thread:
+      1.For every execution, the thread is worked in back end. As per we already studied, when thread start they goes running state then runnable state. 
+    
+    IO Exception:
+      1.Create, Read & Write in the file.
+
+06/07/24:
+    IO Exception:
+      1.Create, Read & Write in the file.
+
+    Serialization:
+      1.Used for Encrypt & Decrypt the Data.
+
+13/07/24:
+    Applet
+
+20/07/24:
+    HTML, CSS
+
+03/08/24:
+    JavaScript
+
+Source Path: C:\Users\Anand\eclipse-workspace

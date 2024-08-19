@@ -1,0 +1,17 @@
+First we want to create the Project, then Packages, Class.
+The Structure is,
+package packagename;
+
+public class classname{  
+     public static void main(String[] args) {
+     //any programs runned here only
+     }
+}
+
+Compare to Normal other program java differ in declaration two place.
+Normally we declare int, char. But, we declare float with addition of f in last.
+Example, 
+       float x=80.5f;
+Then String declaration differ in String(First letter Caps).
+Example,
+       String x="My Name";

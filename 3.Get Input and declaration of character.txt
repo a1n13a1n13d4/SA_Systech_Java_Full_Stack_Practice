@@ -1,0 +1,23 @@
+We get input from the user coding is changing here. First we totally declare the data type then we declared the input way(Scanner) as variable. In time of get the input. We want to save that. For that we save the data type already declared variable is equal to Scanner variable.What datatype(nextInt,nextFloat,nextLine,next,next().charAt(0)).
+For example,
+package packagname;
+import java.util.Scanner;
+public class classname{
+     public static void main(String[] args){
+          int a;
+		float b;
+		char c;
+		String d;
+		Scanner value=new Scanner(System.in);
+		System.out.print("Enter the Value for a as Integer: ");
+		a=value.nextInt();
+		System.out.print("Enter the Value for b as Float: ");
+		b=value.nextFloat();
+		System.out.print("Enter the Value for c as Character: ");
+		c=value.next().charAt(0);
+		System.out.print("Enter the Value for d as String: ");
+		d=value.next();
+		System.out.println("The Integer is "+a+". The Float is "+b+". The Character is "+c+". The String is "+d+".");
+	}
+}
+When using the last input as string declared that as next() not nextLine().
