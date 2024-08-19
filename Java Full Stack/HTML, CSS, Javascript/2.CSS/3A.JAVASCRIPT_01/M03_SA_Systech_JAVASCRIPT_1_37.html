@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTECH</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var deg=Number(prompt("Enter the degrees fahrenheit", 32));
+        var deg2;
+        deg2 = 5/9*(deg-32);
+        document.write(deg+"\xB0 Fahrenheit is "+deg2+"\xB0 centigrade <br>");
+        if(deg2<0){
+            document.write("This is below the freezing point of water");
+        }
+        if(deg2==100){
+            document.write("This is the boiling point of water");
+        }
+    </script>
+</body>
+
+</html>
